@@ -1,0 +1,24 @@
+.homeContainer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .homeTitle{
+    width: 1024px;
+    font-size: 20px;
+  }
+
+ 
+
+  .loadBtn {
+    
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .placeLoad:hover {
+    background: palegreen;
+  }
