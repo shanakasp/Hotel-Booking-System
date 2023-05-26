@@ -4,7 +4,7 @@ import MailList from "./mailList/mailList";
 import Navbar from "./navbar/Navbar";
 import HeaderL from "./headerL/HeaderL";
 import HostItem from "./hostItem/HostItem";
-import TripPlanner from "./TripPlanner/Tripplanner";
+import TripPlanner from "./TripPlanner_Banner/Tripplanner";
 import FeaturedProperties from "./featuredProperties/featuredProperties";
 import Featured from "./featured/featured";
 import PropertyList from "./propertyList/propertyList";

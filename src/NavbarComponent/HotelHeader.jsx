@@ -31,18 +31,18 @@ const HotelHeader = () => {
           className="nav-link active"
           aria-current="page"
         >
-          <b className="text-color">All Booked Hotel</b>
+          <b className="text-color5">All Booked Hotel |</b>
         </Link>
       </li>
 
       <li class="nav-item">
         <Link
-          to=""
+          to="/"
           class="nav-link active"
           aria-current="page"
           onClick={hotelLogout}
         >
-          <b className="text-color">Logout</b>
+          <b className="text-color5">Logout |</b>
         </Link>
         <ToastContainer />
       </li>

@@ -8,7 +8,7 @@ const MailList = () => {
       <span className="tripDesc">To have a unforgettable journey</span>
       <div className="tripInputContainer">
 
-      <Link to="/about" className="hostInputContainer"  >
+      <Link to="/TripPlanner" className="hostInputContainer"  >
       <button >Click here to Start</button>
 
           </Link>

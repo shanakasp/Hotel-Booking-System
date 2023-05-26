@@ -1,6 +1,7 @@
 import React from "react";
 import Stripe from "react-stripe-checkout";
 import axios from "axios";
+import ViewMyBooking from "../BookingComponent/ViewMyBooking";
 function payment() {
 async function handleToken(token) {
 console.log(token);

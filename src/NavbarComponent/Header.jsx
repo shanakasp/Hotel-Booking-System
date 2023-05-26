@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../images/e_logo.png";
+import logo from "../images/logo1.png";
 import RoleNav from "./RoleNav";
 
 const Header = () => {
@@ -18,7 +18,7 @@ const Header = () => {
           />
           <Link to="/" className="navbar-brand">
             <i>
-              <b className="text-color">TRAVO |</b>
+              <b className="text-color5">TRAVO |</b>
             </i>
           </Link>
 
@@ -35,7 +35,26 @@ const Header = () => {
           </button>
           <Link to="/home" className="navbar-brand">
             <i>
-              <b className="text-color"> Hotels |</b>
+              <b className="text-color5"> Hotels |</b>
+            </i>
+          </Link>
+
+          <button
+            
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+
+          <Link to="/cab" className="navbar-brand">
+            <i>
+              <b className="text-color5"> Cabs |</b>
             </i>
           </Link>
 
@@ -53,16 +72,17 @@ const Header = () => {
           </button>
 
           
+          
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link
-                  to="/about"
+                  to="/TripPlanner"
                   className="nav-link active"
                   aria-current="page"
                 >
-                  <b className="text-color">About Us</b>
+                  <b className="text-color5">Trip Planner |</b>
                 </Link>
               </li>
 
@@ -72,7 +92,7 @@ const Header = () => {
                   className="nav-link active"
                   aria-current="page"
                 >
-                  <b className="text-color">Contact Us</b>
+                  <b className="text-color5">Contact Us |</b>
                 </Link>
               </li>
             </ul>

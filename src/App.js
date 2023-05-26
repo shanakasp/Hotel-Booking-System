@@ -1,6 +1,6 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import AboutUs from "./page/AboutUs";
+import TripPlanner from "./page/TripPlanner/TripPlanner";
 import ContactUs from "./page/ContactUs";
 import Header from "./NavbarComponent/Header";
 import HomePage from "./page/HomePage";
@@ -18,18 +18,25 @@ import ViewMyHotelBookings from "./BookingComponent/ViewMyHotelBookings";
 import VerifyBooking from "./BookingComponent/VerifyBooking";
 import Landing from './page/landing/landing';
 import Payment from "./Payment/payment";
-import AdminDashb from "./page/AdminDashboard/AdminDashb";
+import ListEmployeeComponent from "./page/AdminDashboard/ListEmployeeComponent";
+import ViewEmployeeComponent from "./page/AdminDashboard/ViewEmployeeComponent";
+import CreateEmployeeComponent from "./page/AdminDashboard/CreateEmployeeComponent";
+import Cab from "./Cab/Cab";
+import OTP from "./UserComponent/OTP";
 
 function App() {
   return (
     <div>
       <Header />
       <Routes>
-        <Route path="/admindashb" element={<AdminDashb />} />
-        <Route path="/home" element={<HomePage />} />
         <Route path="/" element={<Landing />} />
+        <Route path="/admindashb" element={<ListEmployeeComponent />} />
+        <Route path = "/add-employee" element = {<CreateEmployeeComponent/>}/>
+        <Route path = "/view-employee/:id" element = {<ViewEmployeeComponent/>}/>
+        <Route path="/home" element={<HomePage />} />
         <Route path="/pay" element={<Payment/>} />
-
+        <Route path="/OTP" element={<OTP/>} />
+        <Route path="/Cab" element ={<Cab/>} />
 
 
 
@@ -39,7 +46,7 @@ function App() {
           element={<HomePage />}
         />
         <Route path="contact" element={<ContactUs />} />
-        <Route path="about" element={<AboutUs />} />
+        <Route path="TripPlanner" element={<TripPlanner/>} />
         <Route path="admin/add-location" element={<AddLocation />} />
         <Route path="admin/add-facility" element={<AddFacility />} />
         <Route path="admin/hotel/register" element={<AddHotelForm />} />

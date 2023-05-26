@@ -1,6 +1,8 @@
-import carousel1 from "../images/carousal_1.png";
-import carousel2 from "../images/carousal_2.png";
-import carousel3 from "../images/carousal_3.png";
+
+import cover1 from "../images/cover1.jpg";
+import cover2 from "../images/cover2.jpg";
+import cover3 from "../images/cover3.jpg";
+import './carousel.css';
 
 const Carousel = () => {
   return (
@@ -33,13 +35,13 @@ const Carousel = () => {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src={carousel3} className="d-block w-100" alt="..." />
+          <img src={cover2} className="d-block w-100" alt="..." />
         </div>
         <div className="carousel-item">
-          <img src={carousel3} className="d-block w-100" alt="..." />
+          <img src={cover1} className="d-block w-100" alt="..." />
         </div>
         <div className="carousel-item">
-          <img src={carousel3} className="d-block w-100" alt="..." />
+          <img src={cover3} className="d-block w-100" alt="..." />
         </div>
       </div>
       <button

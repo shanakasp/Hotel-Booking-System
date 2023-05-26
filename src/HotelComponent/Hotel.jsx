@@ -1,6 +1,5 @@
 import GetAllLocations from "../LocationComponent/GetAllLocations";
 import LocationNavigator from "../LocationComponent/LocationNavigator";
-import { useParams } from "react-router-dom";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
@@ -8,8 +7,8 @@ import HotelCard from "./HotelCard";
 import HotelCarousel from "./HotelCarousel";
 import GetHotelFacilities from "../FacilityComponent/GetHotelFacilities";
 import GetHotelReviews from "../HotelReviewComponent/GetHotelReviews";
-import { useNavigate } from "react-router-dom";
 import Footer from "../page/Footer";
+import { redirect, Link, useNavigate, useParams } from "react-router-dom";
 
 const Hotel = () => {
   const { hotelId, locationId } = useParams();
@@ -147,8 +146,16 @@ const Hotel = () => {
             console.log(res);
             console.log(res.responseMessage);
             alert("Hotel Booked Successfully!!!");
+            console.log("Hotel Booked Successfully!!!");
+            
           });
         });
+
+      navigate("/pay");
+
+
+
+        
     }
   };
 
@@ -254,12 +261,12 @@ const Hotel = () => {
                   </div>
 
                   <div className="d-flex justify-content-center">
-                    <div>
+                    <div>         
                       <input
                         type="submit"
                         class="btn custom-bg bg-color mb-3 text-color3"
-                        value="Book Hotel"
-                      />
+                        value="Pay Now"
+                      />        
                     </div>
                   </div>
                 </form>
@@ -308,7 +315,7 @@ const Hotel = () => {
         </div>
       </div>
 
-      <div className="row mt-4">
+      <div className="row mt-4 ">
         <div className="col-sm-12">
           <h2>Other Hotels in {hotel.location.city} Location:</h2>
           <div className="row row-cols-1 row-cols-md-4 g-4">

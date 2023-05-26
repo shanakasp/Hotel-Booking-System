@@ -25,13 +25,23 @@ const AdminHeader = () => {
 
   return (
     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
+     <li className="nav-item">
+        <Link
+          to="/admindashb"
+          className="nav-link active"
+          aria-current="page"
+        >
+          <b className="text-color5">Admin Dashboard |</b>
+        </Link>
+      </li>
+
       <li className="nav-item">
         <Link
           to="/admin/add-location"
           className="nav-link active"
           aria-current="page"
         >
-          <b className="text-color">Add Location</b>
+          <b className="text-color5">Add Location |</b>
         </Link>
       </li>
 
@@ -41,7 +51,7 @@ const AdminHeader = () => {
           className="nav-link active"
           aria-current="page"
         >
-          <b className="text-color">Add Facility</b>
+          <b className="text-color5">Add Facility |</b>
         </Link>
       </li>
 
@@ -51,7 +61,7 @@ const AdminHeader = () => {
           className="nav-link active"
           aria-current="page"
         >
-          <b className="text-color">Register Hotel User</b>
+          <b className="text-color5">Register Hotel User |</b>
         </Link>
       </li>
 
@@ -61,7 +71,7 @@ const AdminHeader = () => {
           className="nav-link active"
           aria-current="page"
         >
-          <b className="text-color">Add Hotel</b>
+          <b className="text-color5">Add Hotel |</b>
         </Link>
       </li>
 
@@ -71,18 +81,18 @@ const AdminHeader = () => {
           className="nav-link active"
           aria-current="page"
         >
-          <b className="text-color">View All Bookings</b>
+          <b className="text-color5">View All Bookings |</b>
         </Link>
       </li>
 
       <li class="nav-item">
         <Link
-          to=""
+          to="/"
           class="nav-link active"
           aria-current="page"
           onClick={adminLogout}
         >
-          <b className="text-color">Logout</b>
+          <b className="text-color5">Logout |</b>
         </Link>
         <ToastContainer />
       </li>

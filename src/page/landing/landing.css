@@ -1,9 +1,9 @@
 .homeContainer{
-    margin-top: 50px;
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 15px;
   }
   
   .homeTitle{
@@ -14,7 +14,7 @@
  
 
   .loadBtn {
-    
+    gap: 40px;
     padding: 10px;
     cursor: pointer;
   }

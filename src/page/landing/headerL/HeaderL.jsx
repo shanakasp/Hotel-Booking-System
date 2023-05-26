@@ -1,5 +1,7 @@
 import {
-    faBed,          //icons that are imported
+    faHouse, 
+    faHotel, 
+    faTaxi        //icons that are imported
    
   } from "@fortawesome/free-solid-svg-icons";
   import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -7,6 +9,7 @@ import {
   import "react-date-range/dist/styles.css"; // main css file
   import "react-date-range/dist/theme/default.css"; // theme css file
   import { Link } from "react-router-dom"
+import Hotel from "../../../HotelComponent/Hotel";
   
   const Header = ({ type }) => {
 
@@ -18,16 +21,26 @@ import {
             type === "list" ? "headerContainer listMode" : "headerContainer"
           }
         >
+
+
+        
           <div className="headerList">
             <div className="headerListItem active">
-              <FontAwesomeIcon icon={faBed} />
-              <span>Home</span>
+            
+            <FontAwesomeIcon icon={faHouse} />
+            <Link to="/" className="link" > <span>Home</span> </Link>
             </div>
          
         
             <div className="headerListItem">
-              <FontAwesomeIcon icon={faBed} />
-              <span>Hotels</span>
+              <FontAwesomeIcon icon={faHotel} />
+              <Link to="/home" className="link" ><span>Hotels</span></Link>
+            </div>
+
+            
+            <div className="headerListItem">
+              <FontAwesomeIcon icon={faTaxi} />
+              <Link to="/Cab" className="link" ><span>Cabs</span></Link>
             </div>
             
           </div>

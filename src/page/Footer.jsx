@@ -1,27 +1,31 @@
 import { Link } from "react-router-dom";
+
+
+
 const Footer = () => {
   return (
     <div>
       <div class="container my-5">
+
+    
         <footer class="text-center text-lg-start text-color3">
           <div class="container-fluid p-4 pb-0">
             <section class="">
+            <hr class="mb-4" />
               <div class="row">
                 <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+           
                   <h5 class="text-uppercase text-color">
                     Hotel Booking System
                   </h5>
 
                   <p>
-                    Being a 24/7 Hotel is one of our best amenities because we
-                    can offer our customer unrestricted freedom of access from
-                    sun up to sun down and everywhere in between. You no longer
-                    have to worry about anything in Hotel at any time!
+                   TRAVO is a best hotel booking system that you can find in Sri Lanka that has been developed by "Angular Whiplash" a team from university of Moratuwa!
                   </p>
                 </div>
 
                 <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-                  <h5 class="text-uppercase text-color-4">About us</h5>
+                  <h5 class="text-uppercase text-color-4">Text 1</h5>
 
                   <ul class="list-unstyled mb-0">
                     <li>
@@ -48,7 +52,7 @@ const Footer = () => {
                 </div>
 
                 <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-                  <h5 class="text-uppercase text-color-4">Contact us</h5>
+                  <h5 class="text-uppercase text-color-4">Text 2</h5>
 
                   <ul class="list-unstyled mb-0">
                     <li>
@@ -75,7 +79,7 @@ const Footer = () => {
                 </div>
 
                 <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-                  <h5 class="text-uppercase text-color-4">Careers</h5>
+                  <h5 class="text-uppercase text-color-4">Text 3</h5>
 
                   <ul class="list-unstyled mb-0">
                     <li>
@@ -102,7 +106,7 @@ const Footer = () => {
                 </div>
 
                 <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-                  <h5 class="text-uppercase text-color-4">Links</h5>
+                  <h5 class="text-uppercase text-color-4">Text 4</h5>
 
                   <ul class="list-unstyled mb-0">
                     <li>

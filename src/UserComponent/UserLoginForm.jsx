@@ -47,7 +47,7 @@ const UserLoginForm = () => {
           progress: undefined,
         });
 
-        navigate("/home");
+        navigate("/");
         window.location.reload(true);
       });
     });
@@ -84,7 +84,7 @@ const UserLoginForm = () => {
 
               <div className="mb-3 text-color3">
                 <label for="emailId" class="form-label">
-                  <b>Email Id</b>
+                  <b>Email Id or Phone Number</b>
                 </label>
                 <input
                   type="email"

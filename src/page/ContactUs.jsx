@@ -1,56 +1,67 @@
+import './page.css'
+import img1 from '../images/buddima.png'
+import img2 from '../images/thrka.png'
+import img3 from '../images/chmr.png'
+import img4 from '../images/mn.png'
+import Footer from "./Footer";
+
 const ContactUs = () => {
   return (
     <div className="text-color ms-5 me-5 mr-5 mt-3 text-color3">
+    <div className='container'>
       <b>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-        mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-        voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-        fugiat iusto fuga praesentium optio, eaque rerum! Provident similique
-        accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut
-        molestias architecto voluptate aliquam nihil, eveniet aliquid culpa
-        officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum
-        nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque
-        error repudiandae fuga? Ipsa laudantium molestias eos sapiente officiis
-        modi at sunt excepturi expedita sint? Sed quibusdam recusandae alias
-        error harum maxime adipisci amet laborum. Perspiciatis minima nesciunt
-        dolorem! Officiis iure rerum voluptates a cumque velit quibusdam sed
-        amet tempora. Sit laborum ab, eius fugit doloribus tenetur fugiat,
-        temporibus enim commodi iusto libero magni deleniti quod quam
-        consequuntur! Commodi minima excepturi repudiandae velit hic maxime
-        doloremque. Quaerat provident commodi consectetur veniam similique ad
-        earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo
-        fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores
-        labore suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto
-        ab laudantium modi minima sunt esse temporibus sint culpa, recusandae
-        aliquam numquam totam ratione voluptas quod exercitationem fuga.
-        Possimus quis earum veniam quasi aliquam eligendi, placeat qui corporis!
-        1427 lorem ipsumWhatever By Shadow on Mar 26 2022 DonateThankComment
-        <br />
-        <br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-        mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-        voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-        fugiat iusto fuga praesentium optio, eaque rerum! Provident similique
-        accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut
-        molestias architecto voluptate aliquam nihil, eveniet aliquid culpa
-        officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum
-        nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque
-        error repudiandae fuga? Ipsa laudantium molestias eos sapiente officiis
-        modi at sunt excepturi expedita sint? Sed quibusdam recusandae alias
-        error harum maxime adipisci amet laborum. Perspiciatis minima nesciunt
-        dolorem! Officiis iure rerum voluptates a cumque velit quibusdam sed
-        amet tempora. Sit laborum ab, eius fugit doloribus tenetur fugiat,
-        temporibus enim commodi iusto libero magni deleniti quod quam
-        consequuntur! Commodi minima excepturi repudiandae velit hic maxime
-        doloremque. Quaerat provident commodi consectetur veniam similique ad
-        earum omnis ipsum saepe, voluptas, hic voluptates pariatur est explicabo
-        fugiat, dolorum eligendi quam cupiditate excepturi mollitia maiores
-        labore suscipit quas? Nulla, placeat. Voluptatem quaerat non architecto
-        ab laudantium modi minima sunt esse temporibus sint culpa, recusandae
-        aliquam numquam totam ratione voluptas quod exercitationem fuga.
-        Possimus quis earum veniam quasi aliquam eligendi, placeat qui corporis!
-        1427 lorem ipsumWhatever By Shadow on Mar 26 2022 DonateThankComment
-      </b>
+        <h3>Devloped by "Angular Whiplash" from university of Moratuwa.</h3><br/>
+        <div className="fp">
+      <div className="fpItem">
+        <img
+          src={img1}
+          alt=""
+          className="fpImg"
+        />
+        <span className="fpName">Kumari H.K.B.K.</span>
+        <h5>Group leader</h5>
+        <div className="fpRating">
+          <button>kumarihkbk.20@uom.lk</button>
+        </div>
+      </div>
+      <div className="fpItem">
+        <img
+          src={img2}
+          alt=""
+          className="fpImg"
+        />
+        <span className="fpName"></span>
+        <div className="fpRating">
+          <button></button>
+        </div>
+      </div>
+      <div className="fpItem">
+        <img
+          src={img3}
+          alt=""
+          className="fpImg"
+        />
+        <span className="fpName">Pallikonda D.C.P.</span>
+        <div className="fpRating">
+          <button>pallikondadcp.20@uom.lk</button>
+        </div>
+      </div>
+      <div className="fpItem">
+        <img
+          src={img4}
+          alt=""
+          className="fpImg"
+        />
+        <span className="fpName">Prince J.B.T.S.</span>
+        <div className="fpRating">
+          <button>princejbts.20@uom.lk</button>
+        </div>
+      </div>
+    </div>
+       </b>
+       <h3>Special thanks for Mr Kawinda from Sutra Technologies.</h3>
+       <Footer></Footer>
+       </div>
     </div>
   );
 };

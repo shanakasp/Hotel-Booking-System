@@ -113,6 +113,7 @@ const ViewAllBooking = () => {
                       </td>
                       <td>
                         <b>{booking.totalAmount}</b>
+                      
                       </td>
                     </tr>
                   );

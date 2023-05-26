@@ -13,7 +13,7 @@ const FeaturedProperties = () => {
         <span className="fpCity">Ella</span>
         <span className="fpPrice">Starting from Rs12000</span>
         <div className="fpRating">
-          <button>8.9</button>
+          <button>4.0</button>
           <span>Excellent</span>
         </div>
       </div>
@@ -27,7 +27,7 @@ const FeaturedProperties = () => {
         <span className="fpCity">Hikkaduwa</span>
         <span className="fpPrice">Starting from Rs14000</span>
         <div className="fpRating">
-          <button>9.3</button>
+          <button>5.0</button>
           <span>Exceptional</span>
         </div>
       </div>
@@ -41,7 +41,7 @@ const FeaturedProperties = () => {
         <span className="fpCity">Mirissa</span>
         <span className="fpPrice">Starting from Rs8000</span>
         <div className="fpRating">
-          <button>8.8</button>
+          <button>4.0</button>
           <span>Excellent</span>
         </div>
       </div>
@@ -53,9 +53,9 @@ const FeaturedProperties = () => {
         />
         <span className="fpName">Cinnamon Grand</span>
         <span className="fpCity">Colombo</span>
-        <span className="fpPrice">Starting from $179</span>
+        <span className="fpPrice">Starting from Rs45000</span>
         <div className="fpRating">
-          <button>8.9</button>
+          <button>4.0</button>
           <span>Excellent</span>
         </div>
       </div>
