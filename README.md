@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+🌍✈️ Travel Support Platform – A Comprehensive Travel Companion
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+As part of our 2nd-year software project, we developed a feature-rich travel support platform that streamlines every aspect of a traveler's journey—from searching for destinations, booking accommodations, and dining reservations to trip planning, travel guidance, and transportation services.
 
-## Available Scripts
+Key Features:
+✅ All-in-One Travel Booking – Seamlessly search and book hotels, villas, restaurants, safaris, and more.
+✅ Intelligent Travel Planner – A smart itinerary planner with real-time recommendations.
+✅ Online Payment Integration – Secure transactions using Stripe Payment Gateway.
+✅ Personalized Recommendations – Advanced recommendation algorithms to suggest the best options based on user preferences.
+✅ Transportation Services – Integrated cab booking and public transport assistance for hassle-free travel.
+✅ Admin Dashboard – A powerful management panel for service providers to handle bookings, payments, and analytics.
 
-In the project directory, you can run:
+Tech Stack Used:
+🛠 Frontend: React.js
+🛠 Backend: Spring Boot
+🛠 Database: PostgreSQL
+🛠 Security & Authentication: JSON Web Token (JWT)
+🛠 Payments: Stripe Payment Gateway
+🛠 Admin Panel: Custom-built Admin Dashboards for seamless management
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🚀 This project demonstrates how technology can revolutionize the travel industry by providing a seamless, efficient, and user-friendly experience.
